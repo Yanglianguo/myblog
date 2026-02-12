@@ -1,0 +1,20 @@
+baseURL = "http://localhost/"
+languageCode = "zh-cn"
+title = "串口编程那点事"
+theme = "PaperMod"
+
+[params]
+  author = "歪炮"
+  defaultTheme = "auto"
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 2
