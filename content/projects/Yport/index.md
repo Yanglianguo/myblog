@@ -10,7 +10,7 @@ description: "Linux系统下的权限问题"
 
 	chmod +x Yport
 
-然后再运行程序。
+然后再运行程序。  
 	
 或者通过右键属性,勾选可执行权限。
 
