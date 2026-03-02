@@ -8,8 +8,8 @@ categories: ["串口编程"]
 
 
 **结论先行**：    
->在 .NET 中，`SerialPort.BaseStream.ReadAsync(...)` 在很多情况下是一个**“假异步”**，  
->它**并不能被 `CancellationToken` 中断**，
+>在 .NET 中，`SerialPort.BaseStream.ReadAsync(...)` 在很多情况下是一个“假异步”，  
+>它并不能被 `CancellationToken` 中断，
 >甚至可能**长时间阻塞线程**。
 
 如果你是第一次踩到这个坑，恭喜你 ——  
