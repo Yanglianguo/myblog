@@ -1,5 +1,5 @@
 ---
-title: ".NET串口编程避坑指南3：Linux 下多个 USB 转串口重启后顺序变化 —— ttyUSB0 并不属于任何一个固定接口
+title: .NET串口编程避坑指南3：Linux 下多个 USB 转串口重启后顺序变化 —— ttyUSB0 并不属于任何一个固定接口
 date: 2026-03-06
 draft: false
 tags: ["Linux", "USB转串口", "多个USB", "ttyUSB","顺序变化"]
