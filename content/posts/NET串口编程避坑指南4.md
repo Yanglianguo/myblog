@@ -257,7 +257,7 @@ new SerialPort("/dev/serial/by-id/usb-xxx", 9600);
 
 ---
 
-## 十、工程建议（这一段很重要）
+## 十、工程建议
 
 > **在 Linux 上，把 `GetPortNames()` 当作“提示工具”，而不是“事实来源”。**
 
